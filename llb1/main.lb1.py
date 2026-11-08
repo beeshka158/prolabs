@@ -1,1 +1,1 @@
-print("sona lolva")
+print("s")
