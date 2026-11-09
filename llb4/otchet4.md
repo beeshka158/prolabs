@@ -64,8 +64,7 @@ To https://github.com/beeshka158/prolabs.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
 ```
-
-В завершение я проверила статус репозитория, чтобы убедиться, что локальная ветка синхронизирована с удалённой. Отчёт к лабораторной работе я оформила в формате Markdown и добавила его в папку llb1.
+После оформления отчета в формате Markdown я добавила его в папку llb1 и отправила на GitHub. Проверка состояния репозитория показала, что все изменения успешно синхронизированы с удалённой веткой.
 
 ```
 $ git status
@@ -76,6 +75,18 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
         llb1/otchet_1.md
 nothing added to commit but untracked files present (use "git add" to track)
+
+$ git add .
+$ git commit -m "Add report"
+[main 1a2b3c4] Add report
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 llb1/otchet_1.md
+
+$ git push
+Enumerating objects: 5, done.
+...
+To https://github.com/beeshka158/prolabs.git
+   068f5d0..1a2b3c4  main -> main
 ```
 
 ## Итоги работы
